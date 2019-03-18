@@ -257,6 +257,7 @@ public class Prospector : MonoBehaviour {
 		// Set the depth sorting
 		cd.SetSortingLayerName(layout.discardPile.layerName);
 		cd.SetSortOrder(0);
+		print(target);
 	}
 
 	// Arranges all the cards of the drawPile to show how many are left
